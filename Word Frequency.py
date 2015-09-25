@@ -6,14 +6,8 @@ Def word_frequency(wordlist ):
     for n in range( len(wordlist ) ):
         i[n] = wordlist.count( wordlist[n] )    #Counts how many times the word appears
     wordlist = dict( zip(wordlist, i ) )        #Creates a dictionary
-    return worldlist
+    return wordlist
 
 
 wordlist=["apple", "dog","tiger",  "sofa", "tree", "table", "backpack", "wolf", "newspaper", "pizza", ]
 print( count_frequency( wordlist ) )
-
-
-
-
-
-
