@@ -47,7 +47,7 @@ Class Animal:
 
 
 e = Animal("Elephant")
-t = Animal(Tyrannosaurus Rex")
+t = Animal("Tyrannosaurus Rex")
 b = Animal("Puppy")
 
 e.guess_who_am_I()
